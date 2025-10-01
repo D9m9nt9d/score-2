@@ -53,7 +53,7 @@ export const products = [
     name: 'Win',
     desc: '',
     maxAmount: 1,
-    price: 1,
+    price: 100_000,
     func: () => {
       onWin()
     }
@@ -86,4 +86,5 @@ export function purchaseProduct(product) {
   }
 
   return 0;
+
 }
